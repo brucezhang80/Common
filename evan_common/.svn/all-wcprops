@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/setech/setech_relevance_rep/!svn/ver/7191/keyword_proj/trunk/2.0/kss_common/src/evan_common
+END
+route.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/setech/setech_relevance_rep/!svn/ver/9166/keyword_proj/trunk/2.0/kss_common/src/evan_common/route.cpp
+END
+list.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/setech/setech_relevance_rep/!svn/ver/7041/keyword_proj/trunk/2.0/kss_common/src/evan_common/list.h
+END
+Hash_evan.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/setech/setech_relevance_rep/!svn/ver/7040/keyword_proj/trunk/2.0/kss_common/src/evan_common/Hash_evan.h
+END
+route.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/setech/setech_relevance_rep/!svn/ver/7036/keyword_proj/trunk/2.0/kss_common/src/evan_common/route.h
+END
+CycLog.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/setech/setech_relevance_rep/!svn/ver/7036/keyword_proj/trunk/2.0/kss_common/src/evan_common/CycLog.h
+END
+HashTbl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/setech/setech_relevance_rep/!svn/ver/7039/keyword_proj/trunk/2.0/kss_common/src/evan_common/HashTbl.cpp
+END
+KSSTservPck.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/setech/setech_relevance_rep/!svn/ver/9166/keyword_proj/trunk/2.0/kss_common/src/evan_common/KSSTservPck.h
+END
+HashTbl.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/setech/setech_relevance_rep/!svn/ver/7039/keyword_proj/trunk/2.0/kss_common/src/evan_common/HashTbl.h
+END
+KSSSearchResult.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/setech/setech_relevance_rep/!svn/ver/7036/keyword_proj/trunk/2.0/kss_common/src/evan_common/KSSSearchResult.h
+END
+list.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/setech/setech_relevance_rep/!svn/ver/7041/keyword_proj/trunk/2.0/kss_common/src/evan_common/list.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/setech/setech_relevance_rep/!svn/ver/7048/keyword_proj/trunk/2.0/kss_common/src/evan_common/Makefile
+END
+_common.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/setech/setech_relevance_rep/!svn/ver/7041/keyword_proj/trunk/2.0/kss_common/src/evan_common/_common.h
+END

@@ -1,0 +1,59 @@
+公共头文件：
+general.h twsetypedef.h  公共头文件
+common.h common.cpp  一些通用函数：字符串的处理、取本地IP地址、文件名处理
+sp_util.h sp_util.cpp  取精确时间
+
+程序结构相关：
+tfrm.h tfrm.cpp  程序框架封装：所有程序统一风格
+
+配置文件相关：
+conf.h conf.cpp   ini格式配置文件的封装
+
+日志相关：
+cyclog.h cyclog.cpp   日志文件封装：文件大小固定，文件数目固定
+log.h log.cpp   日志接口封装：含级别和染色
+
+数据结构和算法相关：
+baselist.h baselist.cpp   list封装
+bhash.h bhash.cpp   内存先HASH再二分封装
+bsearch.h bsearch.cpp   内存二分查找
+hash.h hash.cpp  内存HASH表
+objpool.h objspool.h  对象池封装
+oblist.h  对象表的实现
+buffer.h buffer.cpp   缓冲池（固定数目，不会增长/减少）
+MD5.h MD5.cpp   MD5算法
+merge.h merge.cpp   文件数据归并算法
+
+线程相关：
+lock.h lock.cpp  各类锁的封装
+event.h event.cpp  linux事件方式实现
+lthread.h lthread.cpp   线程封装
+timerthread.h timerthread.cpp   定时器线程
+runable.h runable.cpp  线程封装
+
+文件相关：
+CFileSeqRead.h CFileSeqRead.cpp   文件顺序读
+CFileSeqWrite.h CFileSeqWrite.cpp  文件顺序写
+bfile.h bfile.cpp   
+	三种格式文件的封装：CMBFile - 内存映射BITMAP文件   CBFile - 预分配好单元的数据文件（适合数据量已知，文件固定大小）   CBFileEx - 实时分配单元的数据文件（数据量未定，文件变长）
+bhashf.h bhashf.cpp  
+	四种HASH格式文件封装，查找方式：先HASH再二分：CBHashF - 数据长度固定（适合数据量已知，文件固定大小）  CBHashFEx - 变长数据（适合数据量已知，文件固定大小）  
+												  CMinBHashF - 数据长度固定（数据量未定，文件变长）  CMinBHashFEx - 变长数据（数据量未定，文件变长）
+hashf.h hashf.cpp HASH文件，适合小数据集，性能低
+
+网络相关：
+base_socket.h base_socket.cpp   socket操作封装
+tcp_client.h tcp_client.cpp  TCP客户端接口封装
+tcp_server.h tcp_server.cpp  TCP服务器接口封装
+tserv.cpp tservconf.h tservconf.cpp tservfrm.h tservfrm.cpp  TCP服务器框架
+
+共享内存相关：
+shm.h shm.cpp   共享内存封装
+mbhash.h mbhash.cpp  共享内存的先HASH再二分封装
+mbsearch.h mbsearch.cpp  共享内存二分封装
+mqueue.h mqueue.cpp  共享内存方式队列实现
+
+共享内存CACHE:
+hashmap.h hashmap.cpp  共享内存方式HASH表实现
+chunk.h chunk.cpp   固定单元的内存块管理
+mcache.h mcache.cpp   共享内存方式的CACHE实现，采用LRU算法淘汰
